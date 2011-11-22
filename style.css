@@ -127,3 +127,8 @@ button, input[type=submit] {
   border-color: #F46800;
   color: #F46800;
 }
+
+.fc-event-time, 
+.fc-event-title {
+    border-left: 3px solid #F46800 !important;
+}
