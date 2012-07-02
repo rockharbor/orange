@@ -14,6 +14,9 @@ class ChildTheme extends RockharborThemeBase {
  */
 	protected $themeOptions = array(
 		'slug' => 'orange',
-		'short_name' => 'Orange'
+		'short_name' => 'Orange',
+		'supports' => array(
+			'message'
+		)
 	);
 }
